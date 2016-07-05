@@ -1,3 +1,16 @@
+// EXAMPLE GLOBAL USAGE
+
+/*
+<script type="text/javascript" src="/scripts/jquery.auto-address.js"></script>
+    <script>
+        $(function () {
+            $('.geoaddress').autoAddress()
+        });
+</script>
+*/
+
+// PLUGIN CODE WITH EXAMPLES
+
 $.autoAddress = function (element, options) {
 
     var getInput = function (name) {
